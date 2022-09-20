@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1202255527112166898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1202255527112166900}
+  - component: {fileID: 1202255527112166899}
+  m_Layer: 0
+  m_Name: warp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1202255527112166900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202255527112166898}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.484734, y: -4.2396584, z: 201.78189}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1202255527112166899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202255527112166898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb773e98edec9d4bb612cff59d76d7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floor1: {fileID: 0}
+  floor2: {fileID: 0}
+  floor3: {fileID: 0}
+  Mathematic: {fileID: 0}
+  Chemical: {fileID: 0}
+  Biological: {fileID: 0}
+  Physic: {fileID: 0}
+  English: {fileID: 0}
+  floor1Off: {fileID: 0}
+  floor2Off: {fileID: 0}
+  floor3Off: {fileID: 0}
+  MathematicOff: {fileID: 0}
+  ChemicalOff: {fileID: 0}
+  BiologicalOff: {fileID: 0}
+  PhysicOff: {fileID: 0}
+  EnglishOff: {fileID: 0}
+  ChangeSceneTo: 0
+  detectLayer:
+    serializedVersion: 2
+    m_Bits: 8
