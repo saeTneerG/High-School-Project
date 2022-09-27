@@ -8,6 +8,7 @@ TagManager:
   - QuestItem
   - StartPos
   - EventSystems
+  - FallenGround
   layers:
   - Default
   - TransparentFX
