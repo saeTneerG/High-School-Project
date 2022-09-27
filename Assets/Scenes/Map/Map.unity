@@ -1489,7 +1489,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6437761754966685694, guid: cc8b60707a8372c4b9dd1aa633ef1097, type: 3}
       propertyPath: m_Name
-      value: FallenGround (1)
+      value: FallenGround
       objectReference: {fileID: 0}
     - target: {fileID: 6437761754966685694, guid: cc8b60707a8372c4b9dd1aa633ef1097, type: 3}
       propertyPath: m_Layer
@@ -4546,7 +4546,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6437761754966685694, guid: cc8b60707a8372c4b9dd1aa633ef1097, type: 3}
       propertyPath: m_Name
-      value: FallenGround (3)
+      value: FallenGround
       objectReference: {fileID: 0}
     - target: {fileID: 6437761754966685694, guid: cc8b60707a8372c4b9dd1aa633ef1097, type: 3}
       propertyPath: m_Layer
@@ -8975,7 +8975,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &750213203
 Transform:
   m_ObjectHideFlags: 0
@@ -23663,7 +23663,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2057185805
 Transform:
   m_ObjectHideFlags: 0
