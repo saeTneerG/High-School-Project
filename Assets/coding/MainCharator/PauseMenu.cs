@@ -57,6 +57,7 @@ public class PauseMenu : MonoBehaviour
         SceneManager.LoadScene(iLevelToLoad);
         Debug.Log("Quitting Game...");
         DataPersistenceManagement.instance.SaveGame();
+        PauseMenuUI.SetActive(false);
     }
 
     public void SetVolume(float volume){

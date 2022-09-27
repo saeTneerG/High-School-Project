@@ -29,15 +29,19 @@ public class PlayerControler : MonoBehaviour, IDataPersistence
     private Rigidbody2D rb;
 
     public void LoadData(GameData data){
-        this.transform.position = data.PlayerPos;
+        this.transform.position = data.PlayerPos + new Vector3(0, 0, 100);
         lightSet = data.lights;
         Quest2.mathClear = data.math;
+        Quest1.ChemClear = data.chem;
+        Bio.BioClear = data.bio;
     }
 
     public void SaveData(GameData data){
+        data.chem = Quest1.ChemClear;
         data.PlayerPos = this.transform.position;
         data.lights = lightSet;
         data.math = Quest2.mathClear;
+        data.bio = Bio.BioClear;
     }
 
     void Start()

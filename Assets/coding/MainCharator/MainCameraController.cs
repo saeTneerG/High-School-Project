@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MainCameraController : MonoBehaviour
+public class MainCameraController : MonoBehaviour,IDataPersistence
 {
 
     public bool zoomActive = true;
@@ -24,6 +24,14 @@ public class MainCameraController : MonoBehaviour
     private float fixedHeight;
 
     private int i;
+
+    public void LoadData(GameData data){
+        Player = data.camTarget;
+    }
+
+    public void SaveData(GameData data){
+        data.camTarget = Player;
+    }
 
     void Start()
     {
