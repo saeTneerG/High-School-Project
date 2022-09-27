@@ -43,4 +43,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e046748a162ca84d9371c398f95178e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fileName: GameData
+  fileName: SaveGameData
